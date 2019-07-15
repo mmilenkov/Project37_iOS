@@ -20,6 +20,10 @@
 		3FFB08DF22DC3A8E00886F3D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB08DE22DC3A8E00886F3D /* ExtensionDelegate.swift */; };
 		3FFB08E122DC3A8E00886F3D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB08E022DC3A8E00886F3D /* NotificationController.swift */; };
 		3FFB08E322DC3A8F00886F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB08E222DC3A8F00886F3D /* Assets.xcassets */; };
+		3FFB08F622DC3AEB00886F3D /* PhantomFromSpace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB08F422DC3AEB00886F3D /* PhantomFromSpace.mp3 */; };
+		3FFB08F722DC3AEB00886F3D /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB08F522DC3AEB00886F3D /* README.txt */; };
+		3FFB08F922DC3D3B00886F3D /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB08F822DC3D3B00886F3D /* CardViewController.swift */; };
+		3FFB08FB22DC6E2F00886F3D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB08FA22DC6E2F00886F3D /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +87,10 @@
 		3FFB08E222DC3A8F00886F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FFB08E422DC3A8F00886F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FFB08E522DC3A8F00886F3D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3FFB08F422DC3AEB00886F3D /* PhantomFromSpace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PhantomFromSpace.mp3; sourceTree = "<group>"; };
+		3FFB08F522DC3AEB00886F3D /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		3FFB08F822DC3D3B00886F3D /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		3FFB08FA22DC6E2F00886F3D /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,8 @@
 		3FFB08AD22DC3A8B00886F3D = {
 			isa = PBXGroup;
 			children = (
+				3FFB08FA22DC6E2F00886F3D /* GradientView.swift */,
+				3FFB08F822DC3D3B00886F3D /* CardViewController.swift */,
 				3FFB08B822DC3A8B00886F3D /* Project37 */,
 				3FFB08CC22DC3A8D00886F3D /* Project37 WatchKit App */,
 				3FFB08DB22DC3A8E00886F3D /* Project37 WatchKit Extension */,
@@ -126,6 +136,7 @@
 		3FFB08B822DC3A8B00886F3D /* Project37 */ = {
 			isa = PBXGroup;
 			children = (
+				3FFB08F322DC3AEB00886F3D /* Content */,
 				3FFB08B922DC3A8B00886F3D /* AppDelegate.swift */,
 				3FFB08BB22DC3A8B00886F3D /* ViewController.swift */,
 				3FFB08BD22DC3A8B00886F3D /* Main.storyboard */,
@@ -157,6 +168,15 @@
 				3FFB08E522DC3A8F00886F3D /* PushNotificationPayload.apns */,
 			);
 			path = "Project37 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3FFB08F322DC3AEB00886F3D /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				3FFB08F422DC3AEB00886F3D /* PhantomFromSpace.mp3 */,
+				3FFB08F522DC3AEB00886F3D /* README.txt */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +282,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FFB08C422DC3A8D00886F3D /* LaunchScreen.storyboard in Resources */,
+				3FFB08F622DC3AEB00886F3D /* PhantomFromSpace.mp3 in Resources */,
 				3FFB08C122DC3A8D00886F3D /* Assets.xcassets in Resources */,
 				3FFB08BF22DC3A8B00886F3D /* Main.storyboard in Resources */,
+				3FFB08F722DC3AEB00886F3D /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +315,8 @@
 			files = (
 				3FFB08BC22DC3A8B00886F3D /* ViewController.swift in Sources */,
 				3FFB08BA22DC3A8B00886F3D /* AppDelegate.swift in Sources */,
+				3FFB08FB22DC6E2F00886F3D /* GradientView.swift in Sources */,
+				3FFB08F922DC3D3B00886F3D /* CardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
